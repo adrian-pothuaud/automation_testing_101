@@ -1,11 +1,11 @@
-import httplib
+import sikuli
 import unittest
+import webbrowser
 
 class TC(unittest.TestCase):
     """Test Case for Home Page."""
 
     def test_A(self):
-        """Make an HTTP request then verify Response code."""
-        conn = httplib.HTTPConnection("www.seleniumhq.org")
-        conn.request("HEAD", "/")
-        self.assertEquals(conn.getresponse().status, 200)
+        """Open Home Page and wait for Selenium Image."""
+        webbrowser.open("http://www.seleniumhq.org")
+        sikuli.wait("1522273020361.png", 30)
