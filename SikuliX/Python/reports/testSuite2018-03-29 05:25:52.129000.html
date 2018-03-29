@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Unit Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-03-28 23:25:31</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.009000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-03-29 05:25:52</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:13.247000</p>
+<p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'></p>
 </div>
@@ -221,67 +221,41 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>HomePage.TC: Test Case for Home Page.</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
-</tr>
-
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_A: Make an HTTP request then verify Response code.</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "/Users/adrian/automation_testing_101/SikuliX/Python/test_cases/HomePage.sikuli/HomePage.py", line 9, in test_A
-    conn = httplib.HTTPConnection("http://demoaut.katalon.com/")
-  File "/Applications/SikuliX.app/Contents/Java/Lib/httplib.py", line 736, in __init__
-    (self.host, self.port) = self._get_hostport(host, port)
-  File "/Applications/SikuliX.app/Contents/Java/Lib/httplib.py", line 777, in _get_hostport
-    raise InvalidURL("nonnumeric port: '%s'" % host[i+1:])
-InvalidURL: nonnumeric port: '//demoaut.katalon.com/'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
 <tr class='passClass'>
-    <td>Login.TC: Test Case for Login Process.</td>
-    <td>1</td>
-    <td>1</td>
+    <td>HomePage.TC: Test Case for Home Page.</td>
+    <td>4</td>
+    <td>4</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_A: Undefined.</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_A: Open SeleniumHQ Home Page.</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_B: Wait for SeleniumHQ image.</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_C: Scroll to the bottom of the page.</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_D: Verify Footer.</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>1</td>
+    <td>4</td>
+    <td>4</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

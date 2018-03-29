@@ -78,9 +78,20 @@
     <span class="str">"""Test Case for Home Page."""</span>
 
     <span class="kw">def</span> test_A(self):
-        <span class="str">"""Open Home Page and wait for Selenium Image."""</span>
+        <span class="str">"""Open SeleniumHQ Home Page."""</span>
         webbrowser.open(<span class="str">"http://www.seleniumhq.org"</span>)
+    <span class="kw">def</span> test_B(self):
+        <span class="str">"""Wait for SeleniumHQ image."""</span>
         sikuli.<span class="skw">wait</span>(<img src="1522273020361.png" />, <span class="dig">30</span>)
+    <span class="kw">def</span> test_C(self):
+        <span class="str">"""Scroll to the bottom of the page."""</span>
+        <span class="kw">if</span> sikuli.Env.isWindows():
+            sikuli.wheel(sikuli.Screen(<span class="dig">0</span>), sikuli.WHEEL_DOWN, <span class="dig">50</span>)
+        <span class="kw">else</span>:
+            sikuli.wheel(sikuli.Screen(<span class="dig">0</span>), sikuli.WHEEL_UP, <span class="dig">50</span>)
+    <span class="kw">def</span> test_D(self):
+        <span class="str">"""Verify Footer."""</span>
+        sikuli.<span class="skw">wait</span>(<img src="1522293751817.png" />, <span class="dig">30</span>)
 </pre>
 </body>
 </html>

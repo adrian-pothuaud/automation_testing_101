@@ -79,13 +79,14 @@
 sys.path.insert(<span class="dig">0</span>, os.path.join(os.path.dirname(getBundlePath()), <span class="str">"test_cases"</span>))
 
 <span class="kw">import</span> HomePage
-<span class="kw">import</span> Login
 
-test_loader = unittest.TestLoader()
+test_loadr = unittest.TestLoader()
 test_suite = unittest.TestSuite()
-test_cases = [HomePage.TC, Login.TC]
+test_cases = [
+    HomePage.TC,
+]
 <span class="kw">for</span> test_case <span class="kw">in</span> test_cases:
-    test_suite.addTests(test_loader.loadTestsFromTestCase(test_case))
+    test_suite.addTests(test_loadr.loadTestsFromTestCase(test_case))
 <span class="kw">with</span> open(os.path.join(os.path.dirname(getBundlePath()), <span class="str">"reports"</span>, <span class="str">"testSuite{}.html"</span>.format(datetime.datetime.now())), <span class="str">"w"</span>) <span class="kw">as</span> stream:
     test_runner = HTMLTestRunner.HTMLTestRunner(stream)
     test_runner.run(test_suite)
