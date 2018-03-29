@@ -10,13 +10,14 @@ class TC(unittest.TestCase):
         webbrowser.open("http://www.seleniumhq.org")
     def test_B(self):
         """Wait for SeleniumHQ image."""
-        sikuli.wait("1522273020361.png", 30)
+        sikuli.wait("seleniumhq.png", 30)
     def test_C(self):
         """Scroll to the bottom of the page."""
         if sikuli.Env.isWindows():
-            sikuli.wheel(sikuli.Screen(0), sikuli.WHEEL_DOWN, 50)
+            wheel_dir = sikuli.WHEEL_DOWN
         else:
-            sikuli.wheel(sikuli.Screen(0), sikuli.WHEEL_UP, 50)
+            wheel_dir = sikuli.WHEEL_UP
+        sikuli.wheel(sikuli.Screen(0), wheel_dir, 50)
     def test_D(self):
         """Verify Footer."""
-        sikuli.wait("1522293751817.png", 30)
+        sikuli.wait("footer.png", 30)

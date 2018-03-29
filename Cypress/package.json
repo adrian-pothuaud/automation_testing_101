@@ -1,0 +1,14 @@
+{
+  "name": "autom_cypress",
+  "version": "1.0.0",
+  "description": "web automation with Cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "apothuaud",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
