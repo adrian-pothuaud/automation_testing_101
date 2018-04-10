@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180410 09:04:21.215" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Users\apd2\Documents\GitHub\automation_testing_101\RobotFramework\test.txt" id="s1" name="Test">
+<test id="s1-t1" name="My Test">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20180410 09:04:21.278" level="INFO">Hello, world!</msg>
+<status status="PASS" endtime="20180410 09:04:21.293" starttime="20180410 09:04:21.278"></status>
+</kw>
+<kw name="My Keyword">
+<arguments>
+<arg>/tmp</arg>
+</arguments>
+<kw name="Directory Should Exist" library="OperatingSystem">
+<doc>Fails unless the given path points to an existing directory.</doc>
+<arguments>
+<arg>${path}</arg>
+</arguments>
+<msg timestamp="20180410 09:04:21.293" html="yes" level="INFO">Directory '&lt;a href="file://C:\tmp"&gt;C:\tmp&lt;/a&gt;' exists.</msg>
+<status status="PASS" endtime="20180410 09:04:21.293" starttime="20180410 09:04:21.293"></status>
+</kw>
+<status status="PASS" endtime="20180410 09:04:21.293" starttime="20180410 09:04:21.293"></status>
+</kw>
+<doc>Example test</doc>
+<status status="PASS" endtime="20180410 09:04:21.293" critical="yes" starttime="20180410 09:04:21.278"></status>
+</test>
+<test id="s1-t2" name="Another Test">
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${message}</arg>
+<arg>Hello, world!</arg>
+</arguments>
+<status status="PASS" endtime="20180410 09:04:21.293" starttime="20180410 09:04:21.293"></status>
+</kw>
+<status status="PASS" endtime="20180410 09:04:21.293" critical="yes" starttime="20180410 09:04:21.293"></status>
+</test>
+<status status="PASS" endtime="20180410 09:04:21.293" starttime="20180410 09:04:21.215"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="2">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180410 09:04:21.278" level="ERROR">Error in file 'C:\Users\apd2\Documents\GitHub\automation_testing_101\RobotFramework\test.txt': Resource file 'ressources.py' does not exist.</msg>
+</errors>
+</robot>

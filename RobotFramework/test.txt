@@ -1,0 +1,21 @@
+*** Settings ***
+Library            OperatingSystem
+Library            BuiltIn
+Resource            ressources.py
+
+*** Variables ***
+${message}        Hello, world!
+
+*** Test Cases ***
+My Test
+        [Documentation]        Example test
+        Log                ${message}
+        My Keyword        /tmp
+
+Another Test
+        Should Be Equal        ${message}        Hello, world!
+
+*** Keywords ***
+My Keyword
+    [Arguments]    ${path}
+    Directory Should Exist        ${path}
