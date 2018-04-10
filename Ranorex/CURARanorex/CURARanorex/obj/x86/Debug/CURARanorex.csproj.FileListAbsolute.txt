@@ -1,0 +1,9 @@
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\CURARanorex.rxtmg
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\CURARanorex.rxtst
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\CURARanorex.exe.config
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\CURARanorex.exe
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\CURARanorex.pdb
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\obj\x86\Debug\CURARanorex.csprojResolveAssemblyReference.cache
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\obj\x86\Debug\CURARanorex.exe
+C:\Users\apd2\Documents\GitHub\automation_testing_101\Ranorex\CURARanorex\CURARanorex\obj\x86\Debug\CURARanorex.pdb
