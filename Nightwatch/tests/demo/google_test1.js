@@ -8,6 +8,6 @@ module.exports = {
         .click('input[class=lsb]')
         .pause(1000)
         .assert.containsText('#main', 'Night Watch')
-        //.end();
+        .end();
     }
   };
