@@ -1,0 +1,90 @@
+00:01:15.226 INFO - Selenium build info: version: '3.5.3', revision: 'a88d25fe6b'
+00:01:15.226 INFO - Launching a standalone Selenium Server
+2018-04-12 00:01:15.274:INFO::main: Logging initialized @531ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:01:15.377 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:01:15.434 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+00:01:15.434 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+00:01:15.484 INFO - Using the passthrough mode handler
+2018-04-12 00:01:15.541:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2018-04-12 00:01:15.583:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@5a8e6209{/,null,STARTING} has uncovered http methods for path: /
+2018-04-12 00:01:15.592:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@5a8e6209{/,null,AVAILABLE}
+2018-04-12 00:01:15.650:INFO:osjs.AbstractConnector:main: Started ServerConnector@7d0587f1{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-04-12 00:01:15.651:INFO:osjs.Server:main: Started @909ms
+00:01:15.652 INFO - Selenium Server is up and running
+2018-04-12 00:01:15.982:INFO:osjshC.ROOT:qtp758529971-10: org.openqa.selenium.remote.server.WebDriverServlet-29774679: Initialising WebDriverServlet
+00:01:16.059 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+00:01:16.060 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@73df8250
+00:01:16.064 INFO - /session: Executing POST on /session (handler: BeginSession)
+00:01:16.168 INFO - Capabilities are: Capabilities {acceptSslCerts=true, marionette=true, name=CURA / Bad User Cannot Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+00:01:16.175 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=CURA / Bad User Cannot Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+00:01:16.175 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=CURA / Bad User Cannot Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+1523484076257	geckodriver	INFO	geckodriver 0.20.1
+1523484076264	geckodriver	INFO	Listening on 127.0.0.1:44921
+1523484077062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/h3/4dwnc6gj4k55wkxlh2mk6h_m0000gn/T/rust_mozprofile.wIYIIHqzNKsK"
+1523484077942	Marionette	INFO	Enabled via --marionette
+2018-04-12 00:01:19.261 plugin-container[8985:3080596] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523484080004	Marionette	INFO	Listening on port 55503
+2018-04-12 00:01:20.348 plugin-container[8986:3080757] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f2b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+00:01:20.759 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:20.760 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/url (handler: ServicedSession)
+00:01:24.231 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.232 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/elements (handler: ServicedSession)
+00:01:24.247 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.248 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing GET on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element/b8e24f8a-da7f-9641-b8d0-8cb1396a39c0/displayed (handler: ServicedSession)
+00:01:24.340 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.342 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element (handler: ServicedSession)
+00:01:24.366 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.366 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element/b8e24f8a-da7f-9641-b8d0-8cb1396a39c0/value (handler: ServicedSession)
+00:01:24.434 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.435 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element (handler: ServicedSession)
+00:01:24.453 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.454 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element/5eba08b9-4a40-b24b-815a-6e89a630f06f/value (handler: ServicedSession)
+00:01:24.501 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.501 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element (handler: ServicedSession)
+00:01:24.516 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.516 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element/9f43aa24-fd9a-4a4d-94b3-5168317b011b/click (handler: ServicedSession)
+00:01:24.954 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.958 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing POST on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/elements (handler: ServicedSession)
+00:01:24.983 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@26021d85
+00:01:24.983 INFO - Handler thread for session 80b07f54-f8b8-4d44-ac1d-f9db04c797f8 (firefox): Executing GET on /session/80b07f54-f8b8-4d44-ac1d-f9db04c797f8/element/f87baf5f-0c1e-c24f-874f-d402d6b5e864/displayed (handler: ServicedSession)
+00:01:25.046 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+00:01:25.047 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@4311df9e
+00:01:25.047 INFO - /session: Executing POST on /session (handler: BeginSession)
+00:01:25.048 INFO - Capabilities are: Capabilities {acceptSslCerts=true, marionette=true, name=CURA / User Can Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+00:01:25.049 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=CURA / User Can Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+00:01:25.049 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=CURA / User Can Login, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+1523484085068	geckodriver	INFO	geckodriver 0.20.1
+1523484085076	geckodriver	INFO	Listening on 127.0.0.1:15151
+1523484085177	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/h3/4dwnc6gj4k55wkxlh2mk6h_m0000gn/T/rust_mozprofile.H9jxnPucxFjN"
+1523484085930	Marionette	INFO	Enabled via --marionette
+2018-04-12 00:01:27.694 plugin-container[8989:3081359] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-12 00:01:28.708 plugin-container[8990:3081500] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523484089174	Marionette	INFO	Listening on port 55565
+00:01:29.952 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:29.953 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/url (handler: ServicedSession)
+00:01:37.435 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.436 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/elements (handler: ServicedSession)
+00:01:37.477 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.478 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing GET on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element/8bb0a64d-bff3-d946-9847-d6bd169f455d/displayed (handler: ServicedSession)
+00:01:37.539 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.540 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element (handler: ServicedSession)
+00:01:37.561 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.562 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element/8bb0a64d-bff3-d946-9847-d6bd169f455d/value (handler: ServicedSession)
+00:01:37.633 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.634 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element (handler: ServicedSession)
+00:01:37.658 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.662 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element/ee6dc579-18d5-0844-afe2-8a3ad540aca7/value (handler: ServicedSession)
+00:01:37.756 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.756 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element (handler: ServicedSession)
+00:01:37.782 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:37.783 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element/0ca0af6b-8dfe-134f-bad0-17eb584e80f1/click (handler: ServicedSession)
+00:01:38.346 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:38.347 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing POST on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/elements (handler: ServicedSession)
+00:01:38.369 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@2fc9a685
+00:01:38.369 INFO - Handler thread for session 8106a8ea-75a4-8746-b054-eb4be5a9c065 (firefox): Executing GET on /session/8106a8ea-75a4-8746-b054-eb4be5a9c065/element/ff3a4b24-c6aa-4049-8491-f736dfd6ec4b/displayed (handler: ServicedSession)
