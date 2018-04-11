@@ -32,6 +32,10 @@ Starting from a basic Web App Test Scenario(s), I am trying to create and mainta
 | Selenium |                                                                |                     |                    |                |                        |            |
 |          |                                                                |                     |                    |                |                        |            |
 
+## ToDo List
+
+
+
 ## Resources
 
 - https://www.joecolantonio.com/
