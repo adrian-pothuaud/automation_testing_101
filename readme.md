@@ -12,8 +12,9 @@ Starting from a basic Web App Test Scenario(s), I am trying to create and mainta
 - Cypress.io
 - Galen
 - Gauge
-- Karate
+- Karate.js
 - Katalon Studio
+- Nightwatch.js
 - pyautogui
 - Ranorex
 - RedwoodHQ
