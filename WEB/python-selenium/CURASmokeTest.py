@@ -1,12 +1,14 @@
-import CURATestCases
-import HtmlTestRunner
 import os
 import unittest
+
+import HtmlTestRunner
+
+import Stories
 
 test_suite = unittest.TestSuite()
 test_loader = unittest.TestLoader()
 
-test_list = [CURATestCases.TC_01, CURATestCases.TC_02]
+test_list = [Stories.AppointmentCreation, Stories.BadLogin]
 for test in test_list:
     tests = test_loader.loadTestsFromTestCase(test)
     test_suite.addTests(tests)

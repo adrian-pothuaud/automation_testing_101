@@ -9,5 +9,7 @@ module.exports = {
             .setValue('@password', 'ThisIsAPassword')
             .click('@submit')
             .waitForElementVisible('@failed', 3000);
+
+        client.end();
     }
   };

@@ -1,13 +1,5 @@
 module.exports = {
 
-    commands : {
-
-        create_appointment : function(apply, comment, facility, healtcare_program, visit_date) {
-            console.log("Appointment Creation ...");
-            // ToDo
-        }
-    },
-
     elements : {
 
         apply_readmission : {
@@ -19,7 +11,7 @@ module.exports = {
         comment : {
             selector : "#txt_comment"
         },
-        facillity : {
+        facility : {
             selector : "#combo_facility",
             values : [
                 "Tokyo CURA Healthcare Center", 
@@ -27,23 +19,29 @@ module.exports = {
                 "Seoul CURA Healthcare Center"
             ]
         },
-        healthcare_programs : {
-            medicare : {
-                selector : "#radio_program_medicare"
-            },
-            medicaid : {
-                selector : "#radio_program_medicaid"
-            },
-            none : {
-                selector : "#radio_program_none"
-            }
-        },
         title : {
             selector : "h2",
             text : "Make Appointment"
         },
         visit_date : {
             selector : "#txt_visit_date"
+        }
+    },
+
+    sections : {
+        healthcare_programs : {
+            selector: "#appointment > div > div > form > div:nth-child(3)",
+            elements:{
+                medicare : {
+                    selector : "#radio_program_medicare"
+                },
+                medicaid : {
+                    selector : "#radio_program_medicaid"
+                },
+                none : {
+                    selector : "#radio_program_none"
+                }
+            }
         }
     },
 

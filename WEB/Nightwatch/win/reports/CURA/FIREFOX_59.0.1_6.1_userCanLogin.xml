@@ -5,9 +5,9 @@
 
   <testsuite name="CURA.userCanLogin"
     errors="0" failures="0" hostname="" id="" package="CURA" skipped="0"
-    tests="1" time="3.610" timestamp="Wed, 11 Apr 2018 13:04:23 GMT">
+    tests="1" time="4.373" timestamp="Thu, 12 Apr 2018 08:45:05 GMT">
   
-    <testcase name="CURA Test : User Can Login" classname="CURA.userCanLogin" time="3.610" assertions="2">
+    <testcase name="CURA Test : User Can Login" classname="CURA.userCanLogin" time="4.373" assertions="2">
 
     
 
@@ -15,6 +15,22 @@
     </testcase>
   
 
+  
+    <system-err>
+        Error while running [CURA / User Can Create Appointment / CURA Test : User Can Login]:
+
+  Error: No selector property for element &#34;healthcare_programs&#34; Instead found properties: medicare,medicaid,none,parent,name
+    at new Element (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\page-object\element.js:11:11)
+    at C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\page-object\page-utils.js:39:35
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\page-object\page-utils.js:35:24
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.module.exports.createElements (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\page-object\page-utils.js:34:14)
+    at new Page (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\page-object\page.js:19:6)
+    at Object.parent.(anonymous function) [as AppointmentForm] (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\core\api.js:469:16)
+    at Object.CURA Test : User Can Login (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\tests\CURA\userCanCreateAppointment.js:5:49)
+    at Module.call (C:\Users\apd2\Documents\GitHub\automation_testing_101\WEB\Nightwatch\win\node_modules\nightwatch\lib\runner\module.js:62:34)
+    </system-err>
   
 
   

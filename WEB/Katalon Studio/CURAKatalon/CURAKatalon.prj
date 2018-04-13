@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test Project for CURA Healthcare Service</description>
+   <name>CURAKatalon</name>
+   <tag></tag>
+   <UUID>b213377b-0b7c-4d21-91e5-f1c33de38f3f</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>

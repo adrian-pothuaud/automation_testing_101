@@ -49,4 +49,20 @@ public class TC_02 {
         region.click(Login.Form.submit);
         region.wait(Login.failed, 30);
     }
+
+    @Test
+    public void test_B_User_Can_Login() throws FindFailed {
+
+        driver.get(Home.url);
+        driver.manage().window().maximize();
+        region.wait(Home.title);
+        region.click(Home.Menu.toggle);
+        region.wait(Home.Menu.login);
+        region.click(Home.Menu.login);
+        region.wait(Login.Form.username, 30);
+        region.paste(Login.Form.username, "John Doe");
+        region.paste(Login.Form.password, "ThisIsNotAPassword");
+        region.click(Login.Form.submit);
+        region.wait(AppointmentForm.title, 30);
+    }
 }
