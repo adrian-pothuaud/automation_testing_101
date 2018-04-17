@@ -1,5 +1,0 @@
-# Cypress.io
-
-## Description
-
-## Tutorial

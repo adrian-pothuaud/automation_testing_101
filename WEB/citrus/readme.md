@@ -1,5 +1,0 @@
-# Citrus
-
-## Description
-
-## Tutorial

@@ -14,6 +14,7 @@ http://demoaut.katalon.com
 
 - [x] JAVA Selenium
 - [x] JAVA SikuliX
+- [ ] Jython SikuliX
 - [ ] Katalon Studio
 - [x] Nightwatch.js
 - [x] Python Selenium
