@@ -17,21 +17,9 @@
       <testCaseId>Test Cases/BadLogin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b45694ad-8364-41dd-8749-32ae409ca35e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AppointmentCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>608976ce-8d0a-4813-ae22-f2892d14976d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a3f862af-ac62-4eb8-a467-bbd7da714b60</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HistoryPopulation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

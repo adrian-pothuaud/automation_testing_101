@@ -18,10 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'cura.Auth.login'('Jane Doe', 'ThisIsAPassword')
+WebUI.openBrowser('')
 
-WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure t'), 5)
+WebUI.navigateToUrl('http://demoaut.katalon.com/')
+
+WebUI.click(findTestObject('i_fa fa-bars'))
+
+WebUI.click(findTestObject('a_Login'))
+
+WebUI.setText(findTestObject('input_username'), 'Jane Doe')
+
+WebUI.setText(findTestObject('input_password'), 'Password')
+
+WebUI.click(findTestObject('button_Login'))
+
+WebUI.click(findTestObject('p_Login failed Please ensure t'))
 
 WebUI.closeBrowser()
 
